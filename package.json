@@ -11,7 +11,8 @@
     "lint:fix": "eslint --fix src/**/*.tsx",
     "test": "jest",
     "tsc": "tsc",
-    "update": "sh updateVersion.sh"
+    "update": "sh updateVersion.sh",
+    "precommit": "build"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.4.4",
