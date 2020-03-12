@@ -12,7 +12,7 @@
     "test": "jest",
     "tsc": "tsc",
     "update": "sh updateVersion.sh",
-    "precommit": "build"
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.4.4",
