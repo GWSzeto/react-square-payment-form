@@ -233,7 +233,7 @@ export const SquarePaymentForm: React.FC<Props> = (props: Props) => {
       if (document.getElementById(`${props.formId}-sq-card-number`)) {
         config.cardNumber = {
           elementId: `${props.formId}-sq-card-number`,
-          placeholder: '• • • •  • • • •  • • • •  • • • •',
+          placeholder: 'Credit Card Number',
         };
       }
       if (document.getElementById(`${props.formId}-sq-cvv`)) {

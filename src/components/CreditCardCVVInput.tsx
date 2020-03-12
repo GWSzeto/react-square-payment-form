@@ -16,7 +16,7 @@ export const CreditCardCVVInput: React.FC<Props> = (props: Props) => {
   const context = useContext(Context);
   return (
     <div>
-      {props.label && <span className="sq-label">{props.label}</span>}
+      {/* {props.label && <span className="sq-label">{props.label}</span>} */}
       <div id={`${context.formId}-sq-cvv`}></div>
     </div>
   );

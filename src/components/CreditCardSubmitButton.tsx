@@ -13,6 +13,7 @@ interface Props {
  */
 export const CreditCardSubmitButton: React.FC<Props> = (props: Props) => {
   const context = useContext(Context);
+
   return (
     <button className="sq-creditcard" onClick={context.onCreateNonce}>
       {props.children ? props.children : 'Pay'}
